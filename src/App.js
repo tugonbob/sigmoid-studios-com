@@ -1,23 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
-
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div>
+      <header>
+        <h1>Sigmoid Studios LLC</h1>
+        <h2 style={{ color: "gray" }}>Currently under construction</h2>
       </header>
+      <body>
+        <p>
+          We are a mobile application development studio that focuses on
+          bringing machine learning and ai tools to your mobile device
+        </p>
+      </body>
+      <div style={{ height: 100 }} />
+      <footer>
+        <h1>Contact Us</h1>
+        <p>sigmoid.studios.llc@gmail.com</p>
+      </footer>
     </div>
   );
 }
