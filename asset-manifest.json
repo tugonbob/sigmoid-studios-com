@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/sigmoid-studios-com/static/js/main.111de6fb.js",
+    "index.html": "/sigmoid-studios-com/index.html",
+    "main.111de6fb.js.map": "/sigmoid-studios-com/static/js/main.111de6fb.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.111de6fb.js"
+  ]
+}
