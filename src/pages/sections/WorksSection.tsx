@@ -11,7 +11,7 @@ export function WorksSection() {
       }}
     >
       <FlexDiv style={{ alignItems: "center" }}>
-        <h2>FEATURED WORK</h2>
+        <h2 className="tertiary">FEATURED WORK</h2>
       </FlexDiv>
       <Spacer size={128} />
       <RowDiv style={{ justifyContent: "space-evenly", flexWrap: "wrap" }}>

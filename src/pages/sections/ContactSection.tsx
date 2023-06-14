@@ -8,7 +8,9 @@ export function ContactSection() {
     >
       <FlexDiv style={{ minWidth: 800, alignItems: "center" }}>
         <FlexDiv style={{ alignItems: "center" }}>
-          <h2>
+          <h2 className="tertiary">CONTACT US</h2>
+          <Spacer size={64} />
+          <h2 style={{ margin: 0 }}>
             Let's build something beautiful{" "}
             <b
               style={{
@@ -21,7 +23,7 @@ export function ContactSection() {
             </b>
           </h2>
         </FlexDiv>
-        <Spacer />
+        <Spacer size={32} />
         <FlexDiv
           style={{
             flexDirection: "row",
@@ -31,7 +33,7 @@ export function ContactSection() {
           }}
         >
           <FlexDiv style={{ maxWidth: 450 }}>
-            <h2 style={{ margin: 0 }}>Contact Us</h2>
+            <h2 style={{ margin: 0 }}>Email Us</h2>
             <p>
               Please provide your <b>name</b>, <b>email</b>, and <b>budget</b>.
               Then, provide a <b>project description</b> and your desired{" "}
@@ -48,6 +50,7 @@ export function ContactSection() {
           <FlexDiv style={{ maxWidth: 300 }}>
             <h4>Contact Info</h4>
             <p style={{ color: "purple" }}>sigmoid.studios.llc@gmail.com</p>
+            <Spacer />
             <h4>Office Hours</h4>
             <p>Monday - Friday</p>
             <p style={{ marginTop: 8 }}>9am - 4:30am (CST)</p>

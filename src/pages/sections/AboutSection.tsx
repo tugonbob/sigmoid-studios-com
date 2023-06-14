@@ -27,6 +27,8 @@ export function AboutSection() {
       }}
     >
       <FlexDiv style={{ alignItems: "center" }}>
+        <h2 className="tertiary">ABOUT US</h2>
+        <Spacer size={64} />
         <h2 style={{ margin: 0 }}>
           We go{" "}
           <b className="accent" style={{ fontFamily: "Caveat", fontSize: 48 }}>
