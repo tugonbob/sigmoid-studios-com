@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.ac52931a.css",
-    "main.js": "/static/js/main.8a1cbb86.js",
+    "main.js": "/static/js/main.14119d19.js",
     "static/media/Caveat-VariableFont_wght.ttf": "/static/media/Caveat-VariableFont_wght.834178e16d110b21c85e.ttf",
     "static/media/python.png": "/static/media/python.fbebfabd42ff95354ed9.png",
     "static/media/linkedin-transparent.png": "/static/media/linkedin-transparent.a1fe1139f51dd50ff1ae.png",
@@ -30,10 +30,10 @@
     "static/media/javascript.png": "/static/media/javascript.266bd9fb2663dcc057b4.png",
     "index.html": "/index.html",
     "main.ac52931a.css.map": "/static/css/main.ac52931a.css.map",
-    "main.8a1cbb86.js.map": "/static/js/main.8a1cbb86.js.map"
+    "main.14119d19.js.map": "/static/js/main.14119d19.js.map"
   },
   "entrypoints": [
     "static/css/main.ac52931a.css",
-    "static/js/main.8a1cbb86.js"
+    "static/js/main.14119d19.js"
   ]
 }
