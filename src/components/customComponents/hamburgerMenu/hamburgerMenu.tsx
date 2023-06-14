@@ -98,7 +98,7 @@ export function HamburgerMenu({
 
           <div style={styles.footer} className="hamburger-menu-footer">
             <h4
-              style={{ marginBottom: 16, fontSize: "3vh" }}
+              style={{ marginBottom: 64, fontSize: "3vh" }}
               className="contact"
             >
               sigmoid.studios.llc@gmail.com
