@@ -1,8 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import { cv, github, linkedin_transparent } from "../../../assets/customIcons";
-import cvPdf from "../../../assets/docs/cv.pdf";
-import { FullscreenDiv, MyIcon, RowDiv } from "../../commonComponents";
+import { FullscreenDiv } from "../../commonComponents";
 import "./styles.css";
 
 export function HamburgerMenu({
@@ -94,7 +91,7 @@ export function HamburgerMenu({
               className={menuOpen ? "fade-down-reverse" : "fade-down"}
             >
               <h1 style={styles.menuItem} className="secondary">
-                PRICING
+                CONTACT
               </h1>
             </button>
           </div>
@@ -102,41 +99,10 @@ export function HamburgerMenu({
           <div style={styles.footer} className="hamburger-menu-footer">
             <h4
               style={{ marginBottom: 16, fontSize: "3vh" }}
-              className="secondary"
+              className="contact"
             >
-              joshuakgao@gmail.com
+              sigmoid.studios.llc@gmail.com
             </h4>
-            <RowDiv>
-              <a
-                style={styles.footerLink}
-                href="https://github.com/tugonbob"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <MyIcon className="icon" icon={github} size="2xl" monochrome />
-              </a>
-              <a
-                style={styles.footerLink}
-                href="https://www.linkedin.com/in/joshua-gao/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <MyIcon
-                  className="icon"
-                  icon={linkedin_transparent}
-                  size="2xl"
-                  monochrome
-                />
-              </a>
-              <a
-                style={styles.footerLink}
-                href={cvPdf}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <MyIcon className="icon" icon={cv} size="2xl" monochrome />
-              </a>
-            </RowDiv>
           </div>
         </>
       </FullscreenDiv>
@@ -190,15 +156,5 @@ const styles: StyleSheet = {
     background: "none",
     border: "none",
     cursor: "pointer",
-  },
-  footer: {
-    display: "flex",
-    flexDirection: "column",
-    alignItems: "flex-end",
-    marginRight: 32,
-    marginBottom: 16,
-  },
-  footerLink: {
-    marginLeft: 8,
   },
 };

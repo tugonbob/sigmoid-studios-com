@@ -2,8 +2,8 @@ import { ScrollDiv } from "../components/commonComponents";
 import { Navbar } from "../components/customComponents";
 import {
   AboutSection,
+  ContactSection,
   HomeSection,
-  PricingSection,
   ProcessSection,
   ServicesSection,
   WorksSection,
@@ -23,8 +23,8 @@ export function HomePage() {
       <section id="products">
         <WorksSection />
       </section>
-      <section id="pricing">
-        <PricingSection />
+      <section id="contact">
+        <ContactSection />
       </section>
     </ScrollDiv>
   );

@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import { HamburgerMenu } from "../hamburgerMenu";
 import { Logo } from "../logo";
 import "./styles.css";
-import { Link } from "react-router-dom";
 
 export function Navbar() {
   const [menuOpen, setMenuOpen] = useState<boolean>(false);
@@ -60,11 +59,11 @@ export function Navbar() {
             </h1>
           </button>
           <button
-            onClick={() => scrollToSection("pricing")}
+            onClick={() => scrollToSection("contact")}
             style={styles.link}
           >
             <h1 style={styles.navText} className="secondary">
-              PRICING
+              CONTACT
             </h1>
           </button>
         </div>
