@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { HamburgerMenu } from "../hamburgerMenu";
 import { Logo } from "../logo";
 import "./styles.css";
+import { Link } from "react-router-dom";
 
 export function Navbar() {
   const [menuOpen, setMenuOpen] = useState<boolean>(false);
@@ -42,14 +43,9 @@ export function Navbar() {
             display: "flex",
             justifyContent: "space-evenly",
             pointerEvents: "auto",
-            width: 600,
+            width: 500,
           }}
         >
-          <button onClick={() => scrollToSection("home")} style={styles.link}>
-            <h1 style={styles.navText} className="secondary">
-              HOME
-            </h1>
-          </button>
           <button
             onClick={() => scrollToSection("services")}
             style={styles.link}
@@ -87,6 +83,7 @@ interface StyleSheet {
 const styles: StyleSheet = {
   navbarContainer: {
     position: "fixed",
+    top: 0,
     height: 64,
     width: "100vw",
     display: "flex",

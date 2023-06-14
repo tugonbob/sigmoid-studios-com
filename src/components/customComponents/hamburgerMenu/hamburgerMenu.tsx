@@ -14,6 +14,13 @@ export function HamburgerMenu({
   setMenuOpen: (menuOpen: boolean) => void;
   d?: boolean;
 }) {
+  const scrollToSection = (sectionId: string) => {
+    const section = document.getElementById(sectionId);
+    if (!section) return;
+    setMenuOpen(false);
+    section.scrollIntoView({ behavior: "smooth" });
+  };
+
   return (
     <>
       <div
@@ -63,46 +70,33 @@ export function HamburgerMenu({
       >
         <>
           <div style={styles.menu}>
-            <Link
-              to="/aiml"
-              onClick={() => setMenuOpen(false)}
+            <button
+              onClick={() => scrollToSection("services")}
               style={styles.link}
               className={menuOpen ? "fade-down-reverse" : "fade-down"}
             >
               <h1 style={styles.menuItem} className="secondary">
-                AI / ML
+                SERVICES
               </h1>
-            </Link>
-            <Link
-              to="/appdev"
-              onClick={() => setMenuOpen(false)}
+            </button>
+            <button
+              onClick={() => scrollToSection("products")}
               style={styles.link}
               className={menuOpen ? "fade-down-reverse" : "fade-down"}
             >
               <h1 style={styles.menuItem} className="secondary">
-                APP DEV
+                PRODUCTS
               </h1>
-            </Link>
-            <Link
-              to="/other"
-              onClick={() => setMenuOpen(false)}
+            </button>
+            <button
+              onClick={() => scrollToSection("pricing")}
               style={styles.link}
               className={menuOpen ? "fade-down-reverse" : "fade-down"}
             >
               <h1 style={styles.menuItem} className="secondary">
-                OTHER
+                PRICING
               </h1>
-            </Link>
-            <Link
-              to="/about"
-              onClick={() => setMenuOpen(false)}
-              style={styles.link}
-              className={menuOpen ? "fade-down-reverse" : "fade-down"}
-            >
-              <h1 style={styles.menuItem} className="secondary">
-                ABOUT
-              </h1>
-            </Link>
+            </button>
           </div>
 
           <div style={styles.footer} className="hamburger-menu-footer">
@@ -191,7 +185,11 @@ const styles: StyleSheet = {
     fontSize: "9.5vh",
   },
   link: {
-    textDecorationLine: "none",
+    textDecoration: "none",
+    outline: "none",
+    background: "none",
+    border: "none",
+    cursor: "pointer",
   },
   footer: {
     display: "flex",

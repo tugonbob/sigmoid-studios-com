@@ -21,7 +21,6 @@ import { MathJaxContext } from "better-react-mathjax";
 function App() {
   return (
     <MathJaxContext>
-      <Navbar />
       <Routes>
         <Route path="/" element={<HomePage />} />
       </Routes>

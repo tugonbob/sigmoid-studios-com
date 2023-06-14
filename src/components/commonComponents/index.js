@@ -8,3 +8,4 @@ export * from "./myIcon";
 export * from "./googleSheetsEmbed";
 export * from "./skillDiv";
 export * from "./code";
+export * from "./spacer";
