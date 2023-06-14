@@ -1,22 +1,22 @@
 import React, { CSSProperties } from "react";
 
-export function ScrollDiv({
+export function FlexDiv({
   children,
-  d,
   style,
   className,
+  d,
 }: {
   children?: any;
-  d?: boolean;
   style?: CSSProperties;
   className?: string;
+  d?: boolean;
 }) {
   return (
     <div
       style={{
-        ...styles.scrollDiv,
+        ...{ border: d ? "1px solid red" : undefined },
+        ...styles.flexDiv,
         ...style,
-        ...{ border: d ? "1px black solid" : undefined },
       }}
       className={className}
     >
@@ -30,10 +30,8 @@ interface StyleSheet {
 }
 
 const styles: StyleSheet = {
-  scrollDiv: {
+  flexDiv: {
     display: "flex",
     flexDirection: "column",
-    backgroundColor: "#f7f7f7",
-    overflow: "hidden",
   },
 };

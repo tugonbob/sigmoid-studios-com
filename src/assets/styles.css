@@ -81,7 +81,7 @@ h4 {
 
 p {
   margin: 0;
-  font-family: "Vito";
+  font-family: "Avenir";
   font-size: 22px;
   margin-top: 16px;
   color: var(--secondary);
@@ -89,7 +89,7 @@ p {
 }
 
 li {
-  font-family: "Vito";
+  font-family: "Avenir";
   font-size: 22px;
   margin-bottom: 6px;
   color: var(--secondary);
