@@ -32,19 +32,19 @@ export function ProcessSection() {
     {
       title: "4. Development",
       description:
-        "Development of mobile application/web/blockchain started using latest tools and technologies with transparency.",
+        "Development of mobile application started using latest tools and technologies with transparency.",
       icon: <BsFileCode size={48} color="#9EC1CF" />,
     },
     {
       title: "5. Quality Assurance",
       description:
-        "Hyperlink values quality and provides 100% bug free application with no compromisation in it.",
+        "We value quality and provide 100% bug free application with no compromisation in it.",
       icon: <FaAward size={48} color="var(--accent)" />,
     },
     {
       title: "6. Deployment",
       description:
-        "After trial and following all processes, your app is ready to launch on the App store or Play Store.",
+        "After trial and following all processes, your app is ready to launch on the App Store or Play Store.",
       icon: <MdOutlineInstallMobile size={48} color="#FEB144" />,
     },
     {
