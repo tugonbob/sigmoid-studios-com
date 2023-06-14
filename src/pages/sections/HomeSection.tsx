@@ -12,7 +12,7 @@ export function HomeSection() {
         padding: 32,
       }}
     >
-      <FlexDiv style={{ width: 400, justifyContent: "center" }}>
+      <FlexDiv style={{ width: 425, justifyContent: "center" }}>
         <h2 style={{ margin: 0 }}>
           Unlock a mobile app that makes you{" "}
           <b
