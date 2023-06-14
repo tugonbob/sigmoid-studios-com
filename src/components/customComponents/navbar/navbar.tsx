@@ -40,9 +40,9 @@ export function Navbar() {
         <div
           style={{
             display: "flex",
-            justifyContent: "flex-end",
-            marginRight: 32,
+            justifyContent: "space-evenly",
             pointerEvents: "auto",
+            width: 600,
           }}
         >
           <button onClick={() => scrollToSection("home")} style={styles.link}>
@@ -98,7 +98,6 @@ const styles: StyleSheet = {
     boxShadow: "0 2px 4px rgba(0, 0, 0, 0.1)",
   },
   navText: {
-    margin: 32,
     fontSize: 16,
   },
   link: {
