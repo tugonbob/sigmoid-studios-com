@@ -10,19 +10,19 @@ export function HomePage() {
   return (
     <ScrollDiv>
       <Navbar />
-      <section id="home" style={{ padding: 16 }}>
+      <section id="home">
         <HomeSection />
       </section>
-      <section id="about" style={{ padding: 16 }}>
+      <section id="about">
         <AboutSection />
       </section>
-      <section id="services" style={{ padding: 16 }}>
+      <section id="services">
         <ServicesSection />
       </section>
-      <section id="products" style={{ padding: 16 }}>
+      <section id="products">
         <ProductsSection />
       </section>
-      <section id="pricing" style={{ padding: 16 }}>
+      <section id="pricing">
         <PricingSection />
       </section>
     </ScrollDiv>

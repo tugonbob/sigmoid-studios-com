@@ -9,12 +9,21 @@ export function HomeSection() {
         flexDirection: "row",
         justifyContent: "space-evenly",
         flexWrap: "wrap",
+        padding: 32,
       }}
     >
       <FlexDiv style={{ width: 400, justifyContent: "center" }}>
         <h2 style={{ margin: 0 }}>
           Unlock a mobile app that makes you{" "}
-          <b style={{ color: "var(--accent)" }}>proud</b>
+          <b
+            style={{
+              color: "var(--accent)",
+              fontFamily: "Caveat",
+              fontSize: 48,
+            }}
+          >
+            proud
+          </b>
         </h2>
         <p>
           Experience our beautiful design process and create your ideal mobile

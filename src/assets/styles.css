@@ -45,6 +45,11 @@ body {
   src: url("../assets/fonts/Vito/Vito-CondensedRegular.woff");
 }
 
+@font-face {
+  font-family: "Caveat";
+  src: url("../assets/fonts/Caveat/Caveat-VariableFont_wght.ttf");
+}
+
 /* default text styles */
 
 h1 {
