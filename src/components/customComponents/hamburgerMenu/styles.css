@@ -1,0 +1,300 @@
+.hamburger-container {
+  cursor: pointer;
+}
+
+.hamburger-container .middle-line {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.hamburger-container .hidden-middle-line {
+  position: absolute;
+}
+
+.hamburger-container:hover .middle-line {
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.fade-left {
+  animation-name: fade-left 1s;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  -webkit-animation-name: fade-left;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards;
+}
+
+.fade-left-reverse {
+  animation-name: fade-left-reverse 1s;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  -webkit-animation-name: fade-left-reverse;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards;
+}
+
+@keyframes fade-left {
+  0% {
+    transform: translateX(0px);
+    -webkit-transform: translateX(0px);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(-20px);
+    -webkit-transform: translateX(-20px);
+    opacity: 0;
+  }
+}
+
+@keyframes fade-left-reverse {
+  0% {
+    transform: translateX(-20px);
+    -webkit-transform: translateX(-20px);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(0px);
+    -webkit-transform: translate(0px);
+    opacity: 1;
+  }
+}
+
+.fade-right {
+  animation-name: fade-right;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  -webkit-animation-name: fade-right;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards;
+}
+
+.fade-right-reverse {
+  animation-name: fade-right-reverse;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  -webkit-animation-name: fade-right-reverse;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards;
+}
+
+@keyframes fade-right {
+  0% {
+    transform: translateX(0px);
+    -webkit-transform: translateX(0px);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(20px);
+    -webkit-transform: translateX(20px);
+    opacity: 0;
+  }
+}
+
+@keyframes fade-right-reverse {
+  0% {
+    transform: translateX(20px);
+    -webkit-transform: translateX(20px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0px);
+    -webkit-transform: translateX(0px);
+    opacity: 1;
+  }
+}
+
+.rotate-clockwise {
+  animation-name: rotate-clockwise;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  -webkit-animation-name: rotate-clockwise;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards;
+}
+
+.rotate-clockwise-reverse {
+  animation-name: rotate-clockwise-reverse;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  -webkit-animation-name: rotate-clockwise-reverse;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards;
+}
+
+@keyframes rotate-clockwise {
+  0% {
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+}
+
+@keyframes rotate-clockwise-reverse {
+  0% {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+  100% {
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+  }
+}
+
+.rotate-counter-clockwise {
+  animation-name: rotate-counter-clockwise;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  -webkit-animation-name: rotate-counter-clockwise;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards;
+}
+
+.rotate-counter-clockwise-reverse {
+  animation-name: rotate-counter-clockwise-reverse;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  -webkit-animation-name: rotate-counter-clockwise-reverse;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards;
+}
+
+@keyframes rotate-counter-clockwise {
+  0% {
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+}
+
+@keyframes rotate-counter-clockwise-reverse {
+  0% {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+  100% {
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+  }
+}
+
+.fade-background {
+  animation-name: fade-background;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  -webkit-animation-name: fade-background;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards;
+}
+
+.fade-background-reverse {
+  animation-name: fade-background-reverse;
+  animation-duration: 0.8s;
+  animation-fill-mode: forwards;
+  -webkit-animation-name: fade-background-reverse;
+  -webkit-animation-duration: 0.8s;
+  -webkit-animation-fill-mode: forwards;
+  pointer-events: none;
+}
+
+@keyframes fade-background {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.9;
+  }
+}
+
+@keyframes fade-background-reverse {
+  0% {
+    opacity: 0.9;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.fade-down {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  -webkit-animation-name: fade-down;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards;
+  pointer-events: none;
+}
+
+.fade-down-reverse {
+  animation-name: fade-down-reverse;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  -webkit-animation-name: fade-down-reverse;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+.fade-down-reverse:nth-child(2) {
+  animation-delay: 0.25s;
+  -webkit-animation-delay: 0.25s;
+}
+
+.fade-down-reverse:nth-child(3) {
+  animation-delay: 0.5s;
+  -webkit-animation-delay: 0.5s;
+}
+
+.fade-down-reverse:nth-child(4) {
+  animation-delay: 0.75s;
+  -webkit-animation-delay: 0.75s;
+}
+
+@keyframes fade-down {
+  0% {
+    transform: translateY(0px);
+    -webkit-transform: translateY(0px);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-20px);
+    -webkit-transform: translateY(-20px);
+    opacity: 0;
+  }
+}
+
+@keyframes fade-down-reverse {
+  0% {
+    transform: translateY(-20px);
+    -webkit-transform: translateY(-20px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0px);
+    -webkit-transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+.menu-container h1 {
+  transition: transform 0.5s ease;
+}
+
+.menu-container h1:hover {
+  color: black;
+  transform: scale(1.05);
+}
+
+.hamburger-menu-footer .icon {
+  transition: transform 0.5s ease;
+}
+
+.menu-container .icon:hover {
+  transform: scale(1.25);
+}
