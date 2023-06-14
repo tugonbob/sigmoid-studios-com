@@ -46,12 +46,9 @@ export function Navbar() {
             width: 500,
           }}
         >
-          <button
-            onClick={() => scrollToSection("services")}
-            style={styles.link}
-          >
+          <button onClick={() => scrollToSection("about")} style={styles.link}>
             <h1 style={styles.navText} className="secondary">
-              SERVICES
+              ABOUT
             </h1>
           </button>
           <button

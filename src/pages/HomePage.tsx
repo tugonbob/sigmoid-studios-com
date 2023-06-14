@@ -1,11 +1,13 @@
 import { ScrollDiv, Spacer } from "../components/commonComponents";
 import { Navbar } from "../components/customComponents";
-import { HomeSection } from "./sections";
-import { AboutSection } from "./sections/AboutSection";
-import { PricingSection } from "./sections/PricingSection";
-import { ProductsSection } from "./sections/ProductsSection";
-import { ServicesSection } from "./sections/ServicesSection";
-
+import {
+  HomeSection,
+  AboutSection,
+  ServicesSection,
+  ProductsSection,
+  PricingSection,
+  ProcessSection,
+} from "./sections";
 export function HomePage() {
   return (
     <ScrollDiv>
@@ -15,9 +17,8 @@ export function HomePage() {
       </section>
       <section id="about">
         <AboutSection />
-      </section>
-      <section id="services">
         <ServicesSection />
+        <ProcessSection />
       </section>
       <section id="products">
         <ProductsSection />

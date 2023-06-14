@@ -71,12 +71,12 @@ export function HamburgerMenu({
         <>
           <div style={styles.menu}>
             <button
-              onClick={() => scrollToSection("services")}
+              onClick={() => scrollToSection("about")}
               style={styles.link}
               className={menuOpen ? "fade-down-reverse" : "fade-down"}
             >
               <h1 style={styles.menuItem} className="secondary">
-                SERVICES
+                ABOUT
               </h1>
             </button>
             <button
