@@ -29,7 +29,7 @@ export function Logo({
           alt="" // required by eslint
         />
         <h1 style={styles.lastName} className="secondary">
-          STUDIOS
+          SIGMOID STUDIOS
         </h1>
       </button>
     </RowDiv>

@@ -50,12 +50,9 @@ export function Navbar() {
               ABOUT
             </h1>
           </button>
-          <button
-            onClick={() => scrollToSection("products")}
-            style={styles.link}
-          >
+          <button onClick={() => scrollToSection("works")} style={styles.link}>
             <h1 style={styles.navText} className="secondary">
-              PRODUCTS
+              WORKS
             </h1>
           </button>
           <button

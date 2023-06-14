@@ -20,7 +20,7 @@ export function HomePage() {
         <ServicesSection />
         <ProcessSection />
       </section>
-      <section id="products">
+      <section id="works">
         <WorksSection />
       </section>
       <section id="contact">
