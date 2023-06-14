@@ -8,7 +8,7 @@ export function ContactSection() {
       <FlexDiv style={{ alignItems: "center", width: "100%" }}>
         <h2 className="tertiary">CONTACT US</h2>
         <Spacer size={64} />
-        <h2 style={{ margin: 0 }}>
+        <h2 style={{ textAlign: "center", margin: 0 }}>
           Let's build something beautiful{" "}
           <b
             style={{
