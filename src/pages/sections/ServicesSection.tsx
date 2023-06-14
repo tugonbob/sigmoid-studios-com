@@ -37,7 +37,7 @@ export function ServicesSection() {
       <FlexDiv
         style={{
           padding: 32,
-          width: 350,
+          width: 400,
         }}
       >
         <h2 className="primary" style={{ margin: 0, marginBottom: 32 }}>
