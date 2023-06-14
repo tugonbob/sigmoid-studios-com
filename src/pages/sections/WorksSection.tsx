@@ -3,21 +3,34 @@ import { FlexDiv, RowDiv, Spacer } from "../../components/commonComponents";
 
 export function WorksSection() {
   return (
-    <RowDiv
-      style={{ padding: 64, justifyContent: "space-evenly", flexWrap: "wrap" }}
+    <FlexDiv
+      style={{
+        padding: 64,
+        justifyContent: "space-evenly",
+        flexWrap: "wrap",
+      }}
     >
-      <FlexDiv>
-        <img
-          src={AskGpt}
-          alt=""
-          style={{ maxWidth: 550, maxHeight: 450, width: "100%" }}
-        />
+      <FlexDiv style={{ alignItems: "center" }}>
+        <h2>FEATURED WORK</h2>
       </FlexDiv>
-      <FlexDiv>
-        <p>Featured Work</p>
-        <Spacer />
-        <h3 style={{ margin: 0 }}>AskGPT</h3>
-      </FlexDiv>
-    </RowDiv>
+      <Spacer size={128} />
+      <RowDiv style={{ justifyContent: "space-evenly", flexWrap: "wrap" }}>
+        <FlexDiv>
+          <img
+            src={AskGpt}
+            alt=""
+            style={{
+              maxWidth: 900,
+              width: "90%",
+            }}
+          />
+        </FlexDiv>
+        <FlexDiv style={{ width: 250, padding: 64 }}>
+          <Spacer />
+          <h3 style={{ margin: 0 }}>AskGPT</h3>
+          <p>A mobile app enabling conversations with Chat-GPT</p>
+        </FlexDiv>
+      </RowDiv>
+    </FlexDiv>
   );
 }
