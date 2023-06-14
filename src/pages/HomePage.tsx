@@ -26,6 +26,7 @@ export function HomePage() {
       <section id="contact">
         <ContactSection />
       </section>
+      <Navbar />
     </ScrollDiv>
   );
 }

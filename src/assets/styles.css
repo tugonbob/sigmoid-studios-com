@@ -89,7 +89,7 @@ p {
   font-family: "Avenir";
   font-size: 18px;
   margin-top: 16px;
-  color: var(--secondary);
+  color: var(--tertiary);
 }
 
 b {
