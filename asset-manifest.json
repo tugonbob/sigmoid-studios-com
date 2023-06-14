@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.ac52931a.css",
-    "main.js": "/static/js/main.14119d19.js",
+    "main.css": "/static/css/main.a19498c3.css",
+    "main.js": "/static/js/main.c00ffe42.js",
     "static/media/Caveat-VariableFont_wght.ttf": "/static/media/Caveat-VariableFont_wght.834178e16d110b21c85e.ttf",
     "static/media/python.png": "/static/media/python.fbebfabd42ff95354ed9.png",
+    "static/media/AskGpt.png": "/static/media/AskGpt.d048fc50cb8c34309935.png",
     "static/media/linkedin-transparent.png": "/static/media/linkedin-transparent.a1fe1139f51dd50ff1ae.png",
     "static/media/Vito-CondensedRegular.woff": "/static/media/Vito-CondensedRegular.aeb0a604aa50c3c34b78.woff",
     "static/media/youtube.png": "/static/media/youtube.8a3ed11c86b689e63d3f.png",
     "static/media/github.png": "/static/media/github.4bb497e598c121a691f7.png",
     "static/media/react.png": "/static/media/react.73dbb5bcec516da82694.png",
     "static/media/dot.png": "/static/media/dot.e4cb1a369eed5596f89c.png",
-    "static/media/cv.pdf": "/static/media/cv.ca25ef1d6f2d4ee81f3f.pdf",
     "static/media/linkedin.png": "/static/media/linkedin.72097b5277a499b1902f.png",
     "static/media/mobile-application.png": "/static/media/mobile-application.030b69811064bca7fc34.png",
     "static/media/typescript.png": "/static/media/typescript.17936c69824e11a996c4.png",
@@ -29,11 +29,11 @@
     "static/media/firebase.png": "/static/media/firebase.7d2ea0d93c4a927fdfbd.png",
     "static/media/javascript.png": "/static/media/javascript.266bd9fb2663dcc057b4.png",
     "index.html": "/index.html",
-    "main.ac52931a.css.map": "/static/css/main.ac52931a.css.map",
-    "main.14119d19.js.map": "/static/js/main.14119d19.js.map"
+    "main.a19498c3.css.map": "/static/css/main.a19498c3.css.map",
+    "main.c00ffe42.js.map": "/static/js/main.c00ffe42.js.map"
   },
   "entrypoints": [
-    "static/css/main.ac52931a.css",
-    "static/js/main.14119d19.js"
+    "static/css/main.a19498c3.css",
+    "static/js/main.c00ffe42.js"
   ]
 }
