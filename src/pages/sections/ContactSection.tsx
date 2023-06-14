@@ -1,5 +1,4 @@
-import { useState, useEffect } from "react";
-import { FlexDiv, RowDiv, Spacer } from "../../components/commonComponents";
+import { FlexDiv, Spacer } from "../../components/commonComponents";
 
 export function ContactSection() {
   return (

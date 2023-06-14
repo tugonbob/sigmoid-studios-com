@@ -1,7 +1,6 @@
 import React from "react";
-import { RowDiv } from "../../commonComponents";
 import sigma from "../../../assets/images/sigma.png";
-import { Link } from "react-router-dom";
+import { RowDiv } from "../../commonComponents";
 
 export function Logo({
   setMenuOpen,

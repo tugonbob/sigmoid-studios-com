@@ -1,5 +1,4 @@
 import { FlexDiv, Spacer } from "../../components/commonComponents";
-import inkBlot from "../../assets/images/inkSwipe.png";
 
 export function AboutSection() {
   const sellingPoints = [

@@ -1,18 +1,13 @@
-import {
-  FlexDiv,
-  MyIcon,
-  RowDiv,
-  Spacer,
-} from "../../components/commonComponents";
+import { BsFileCode } from "react-icons/bs";
+import { FaAward } from "react-icons/fa";
 import {
   MdEditNote,
+  MdOutlineInstallMobile,
   MdOutlinePalette,
   MdRebaseEdit,
-  MdOutlineInstallMobile,
   MdSupportAgent,
 } from "react-icons/md";
-import { FaAward } from "react-icons/fa";
-import { BsFileCode } from "react-icons/bs";
+import { FlexDiv, RowDiv, Spacer } from "../../components/commonComponents";
 
 export function ProcessSection() {
   const steps = [
