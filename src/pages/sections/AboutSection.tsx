@@ -44,10 +44,19 @@ export function AboutSection() {
           flexDirection: "row",
           alignItems: "center",
           justifyContent: "space-evenly",
+          flexWrap: "wrap",
         }}
       >
         {sellingPoints.map(({ point, description }, i) => (
-          <FlexDiv style={{ alignItems: "center", flex: 1, maxWidth: 300 }}>
+          <FlexDiv
+            style={{
+              alignItems: "center",
+              flex: 1,
+              maxWidth: 300,
+              minWidth: 200,
+              margin: 32,
+            }}
+          >
             <h2 style={{ color: "var(--accent)" }}>▽</h2>
             <h3 style={{ fontFamily: "Vito", fontSize: 36, margin: 0 }}>
               {point}
