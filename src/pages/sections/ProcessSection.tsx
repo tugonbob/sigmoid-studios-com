@@ -61,7 +61,9 @@ export function ProcessSection() {
   ];
 
   return (
-    <FlexDiv style={{ alignItems: "center", padding: 64 }}>
+    <FlexDiv
+      style={{ alignItems: "center", padding: 64, backgroundColor: "white" }}
+    >
       <h2>
         Here's how our process{" "}
         <b

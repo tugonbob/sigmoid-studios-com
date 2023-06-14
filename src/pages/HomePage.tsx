@@ -1,12 +1,12 @@
-import { ScrollDiv, Spacer } from "../components/commonComponents";
+import { ScrollDiv } from "../components/commonComponents";
 import { Navbar } from "../components/customComponents";
 import {
-  HomeSection,
   AboutSection,
-  ServicesSection,
-  ProductsSection,
+  HomeSection,
   PricingSection,
   ProcessSection,
+  ServicesSection,
+  WorksSection,
 } from "./sections";
 export function HomePage() {
   return (
@@ -21,7 +21,7 @@ export function HomePage() {
         <ProcessSection />
       </section>
       <section id="products">
-        <ProductsSection />
+        <WorksSection />
       </section>
       <section id="pricing">
         <PricingSection />
