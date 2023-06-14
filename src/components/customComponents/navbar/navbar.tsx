@@ -82,8 +82,6 @@ interface StyleSheet {
 
 const styles: StyleSheet = {
   navbarContainer: {
-    position: "fixed",
-    top: 0,
     height: 64,
     width: "100vw",
     display: "flex",

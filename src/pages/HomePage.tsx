@@ -1,30 +1,29 @@
 import { ScrollDiv, Spacer } from "../components/commonComponents";
 import { Navbar } from "../components/customComponents";
+import { HomeSection } from "./sections";
+import { AboutSection } from "./sections/AboutSection";
+import { PricingSection } from "./sections/PricingSection";
+import { ProductsSection } from "./sections/ProductsSection";
+import { ServicesSection } from "./sections/ServicesSection";
 
 export function HomePage() {
   return (
     <ScrollDiv>
       <Navbar />
-      <Spacer size={64} />
-      <section id="home">
-        <Spacer size={64} />
-        <h1 style={{ height: 500 }}>Home</h1>
+      <section id="home" style={{ padding: 16 }}>
+        <HomeSection />
       </section>
-      <section id="about">
-        <Spacer size={64} />
-        <h1 style={{ height: 500 }}>About</h1>
+      <section id="about" style={{ padding: 16 }}>
+        <AboutSection />
       </section>
-      <section id="services">
-        <Spacer size={64} />
-        <h1 style={{ height: 500 }}>Services</h1>
+      <section id="services" style={{ padding: 16 }}>
+        <ServicesSection />
       </section>
-      <section id="products">
-        <Spacer size={64} />
-        <h1 style={{ height: 500 }}>Products</h1>
+      <section id="products" style={{ padding: 16 }}>
+        <ProductsSection />
       </section>
-      <section id="pricing">
-        <Spacer size={64} />
-        <h1 style={{ height: 500 }}>Pricing</h1>
+      <section id="pricing" style={{ padding: 16 }}>
+        <PricingSection />
       </section>
     </ScrollDiv>
   );
