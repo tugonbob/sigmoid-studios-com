@@ -25,7 +25,7 @@ export function Logo({
         <img
           src={sigma}
           style={{ ...styles.image }}
-          alt="" // required by eslint
+          alt="Sigmoid Studios LLC Logo"
         />
         <h1 style={styles.lastName} className="secondary">
           SIGMOID STUDIOS

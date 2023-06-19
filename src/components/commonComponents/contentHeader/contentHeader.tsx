@@ -28,24 +28,28 @@ export function ContentHeader({
   sources?: { [key: string]: string };
 }) {
   let skillsObj: { [key: string]: any } = {
-    css: <MyIcon icon={css} />,
-    dialogflow: <MyIcon icon={dialogflow} />,
-    figma: <MyIcon icon={figma} />,
-    firebase: <MyIcon icon={firebase} />,
-    googleDrive: <MyIcon icon={googleDrive} />,
-    js: <MyIcon icon={javascript} />,
-    javascript: <MyIcon icon={javascript} />,
-    python: <MyIcon icon={python} />,
-    react: <MyIcon icon={react} />,
-    sql: <MyIcon icon={sql} />,
-    typescript: <MyIcon icon={typescript} />,
+    css: <MyIcon icon={css} alt="CSS icon" />,
+    dialogflow: <MyIcon icon={dialogflow} alt="Dialogflow icon" />,
+    figma: <MyIcon icon={figma} alt="Figma icon" />,
+    firebase: <MyIcon icon={firebase} alt="Firebase icon" />,
+    googleDrive: <MyIcon icon={googleDrive} alt="Google Drive icon" />,
+    js: <MyIcon icon={javascript} alt="JavaScript icon" />,
+    javascript: <MyIcon icon={javascript} alt="JavaScript icon" />,
+    python: <MyIcon icon={python} alt="Python icon" />,
+    react: <MyIcon icon={react} alt="React and React-Native icon" />,
+    sql: <MyIcon icon={sql} alt="SQL icon" />,
+    typescript: <MyIcon icon={typescript} alt="Typescript icon" />,
   };
 
   let sourcesObj: { [key: string]: any } = {
-    googleDrive: <MyIcon className="icon" icon={googleDrive} />,
-    github: <MyIcon className="icon" icon={github} />,
-    youtube: <MyIcon className="icon" icon={youtube} />,
-    dialogflow: <MyIcon className="icon" icon={dialogflow} />,
+    googleDrive: (
+      <MyIcon className="icon" icon={googleDrive} alt="Google Drive icon" />
+    ),
+    github: <MyIcon className="icon" icon={github} alt="Github icon" />,
+    youtube: <MyIcon className="icon" icon={youtube} alt="Youtube icon" />,
+    dialogflow: (
+      <MyIcon className="icon" icon={dialogflow} alt="Dialogflow icon" />
+    ),
   };
 
   return (

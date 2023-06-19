@@ -31,7 +31,11 @@ export function HomeSection() {
         </p>
       </FlexDiv>
       <FlexDiv>
-        <img src={mobileDevelopment} alt="" style={styles.image} />
+        <img
+          src={mobileDevelopment}
+          alt="A decorative mobile development image"
+          style={styles.image}
+        />
       </FlexDiv>
     </FlexDiv>
   );

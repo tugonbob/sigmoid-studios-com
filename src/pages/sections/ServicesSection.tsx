@@ -1,10 +1,9 @@
-import React from "react";
-import { FlexDiv, MyIcon, Spacer } from "../../components/commonComponents";
-import apple from "../../assets/customIcons/apple.png";
 import android from "../../assets/customIcons/android.png";
+import apple from "../../assets/customIcons/apple.png";
 import react from "../../assets/customIcons/react.png";
 import website from "../../assets/customIcons/website.png";
-import img from "../../assets/images/mobile-application.png";
+import mobileDevelopment from "../../assets/images/mobile-application.png";
+import { FlexDiv, MyIcon, Spacer } from "../../components/commonComponents";
 
 export function ServicesSection() {
   const platforms = [
@@ -32,7 +31,11 @@ export function ServicesSection() {
           width: 400,
         }}
       >
-        <img src={img} style={{ width: "100%" }} alt="" />
+        <img
+          src={mobileDevelopment}
+          style={{ width: "100%" }}
+          alt="A decorative mobile development image"
+        />
       </FlexDiv>
       <FlexDiv
         style={{
@@ -57,7 +60,7 @@ export function ServicesSection() {
                 alignItems: "center",
               }}
             >
-              <MyIcon icon={icon} size="5x" />
+              <MyIcon icon={icon} size="5x" alt={title + " icon"} />
               <Spacer horizontal size={16} />
               <h4
                 className="primary"

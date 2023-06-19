@@ -21,7 +21,7 @@ export default function ChatbotJoshButton() {
         style={styles.buttonContainer}
         onClick={() => setShowChat(!showChat)}
       >
-        <MyIcon icon={dialogflow} size="4x" />
+        <MyIcon icon={dialogflow} size="4x" alt="Icon of Dialogflow" />
       </div>
     </div>
   );

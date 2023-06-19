@@ -44,12 +44,14 @@ export function MyIcon({
   icon,
   monochrome,
   size = "lg",
+  alt,
 }: {
   className?: string;
   style?: React.CSSProperties;
   icon: string;
   monochrome?: boolean;
   size?: iconSize;
+  alt: string;
 }) {
   return (
     <img

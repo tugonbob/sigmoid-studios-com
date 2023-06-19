@@ -18,7 +18,7 @@ export function WorksSection() {
         <FlexDiv>
           <img
             src={AskGpt}
-            alt=""
+            alt="A display image of the mobile app AskGPT, to demonstrate what the mobile app is."
             style={{
               maxWidth: 900,
               width: "90%",

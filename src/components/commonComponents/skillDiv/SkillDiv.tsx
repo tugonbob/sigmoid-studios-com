@@ -16,7 +16,7 @@ export function SkillDiv({
     <div
       style={{ ...styles.container, ...{ backgroundColor: backgroundColor } }}
     >
-      {icon ? <MyIcon icon={icon} style={{ marginRight: 8 }} /> : null}
+      {icon ? <MyIcon icon={icon} style={{ marginRight: 8 }} alt="" /> : null}
       <h4 style={{ ...styles.text, ...{ color: textColor } }}>{text}</h4>
     </div>
   );
