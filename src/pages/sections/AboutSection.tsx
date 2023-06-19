@@ -4,7 +4,7 @@ export function AboutSection() {
   const sellingPoints = [
     {
       point: "Quick",
-      description: "We move quickly, so your business can too",
+      description: "We move quickly so your business can too",
     },
     {
       point: "Quality",
